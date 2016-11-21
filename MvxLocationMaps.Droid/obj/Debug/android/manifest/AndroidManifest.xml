@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="MvxLocationMaps.Droid.MvxLocationMaps.Droid" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="MvxLocationMaps.Droid.MvxLocationMaps.Droid.permission.MAPS_RECEIVE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <application android:label="MvxLocationMaps.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCqZ0l_RSmTJ4wvq37SovhNjZqwjhUJPdM" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:icon="@drawable/icon" android:label="MvxLocationMaps.Droid" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md50731d3374f36c8984d2c7026ba691686.SplashScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="View for FirstViewModel" android:name="md5d6ca621ba96b6080806461b2c54ba97b.FirstView" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MvxLocationMaps.Droid.MvxLocationMaps.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.MvxLocationMaps.Droid.MvxLocationMaps.Droid" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <!-- We need to be able to download map tiles and access Google Play Services-->
+  <!-- Allow the application to access Google web-based services. -->
+  <!-- Google Maps for Android v2 will cache map tiles on external storage -->
+  <!-- Google Maps for Android v2 needs this permission so that it may check the connection state as it must download data -->
+  <!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <!--
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+   Bliver sat i googleplay services. 
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  
+   These are optional, but recommended. They will allow Maps to use the My Location provider. 
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  -->
+</manifest>

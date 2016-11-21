@@ -1,0 +1,14 @@
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvxLocationMaps.Core.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvxLocationMaps.Core.pdb
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvvmCross.Binding.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvvmCross.Core.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvvmCross.Localization.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvvmCross.Platform.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\obj\Debug\MvxLocationMaps.Core.csprojResolveAssemblyReference.cache
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\obj\Debug\MvxLocationMaps.Core.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\obj\Debug\MvxLocationMaps.Core.pdb
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvvmCross.Plugins.Location.dll
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\obj\Debug\MvxLocationMaps.Core.dll.mdb
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvxLocationMaps.Core.dll.mdb
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\obj\Debug\MvxLocationMaps.Core.dll.mdb
+E:\VSProjects\MvxLocationMaps\MvxLocationMaps.Core\bin\Debug\MvxLocationMaps.Core.dll.mdb

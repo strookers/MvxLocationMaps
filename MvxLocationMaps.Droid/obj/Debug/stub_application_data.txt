@@ -1,0 +1,2 @@
+android.app.Application
+MvxLocationMaps.Droid.MvxLocationMaps.Droid
